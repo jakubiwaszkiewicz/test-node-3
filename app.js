@@ -27,6 +27,6 @@ app.get('/api/people', (req, res) => {
     res.status(200).json({success: true, data: people})
 })
 
-app.listen(5000, () => {
-    console.log('listening 5000...')
+app.listen(5002, () => {
+    console.log('listening 5002...')
 })
